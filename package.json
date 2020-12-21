@@ -1,0 +1,23 @@
+{
+  "name": "joshuadesir.life",
+  "version": "0.0.1",
+  "description": "### Showcase your software development skills",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "develop": "bliss start",
+    "type": "git",
+    "url": "git+https://github.com/geedash/g-ayam-profile.git"
+  },
+  "keywords": [
+    "g-"
+  ],
+  "author": "Jeffrey Desir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geedash/g-ayam-profile/issues"
+  },
+  "homepage": "https://github.com/geedash/g-ayam-profile#readme"
+}
