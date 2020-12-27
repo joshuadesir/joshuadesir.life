@@ -1,3 +1,6 @@
 ---
-layout: home
+layout: base
 ---
+
+
+# Hello World!
