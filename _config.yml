@@ -14,3 +14,5 @@ github_username:  jekyll
 
 plugins:
   - jekyll-feed
+  - jekyll-contentblocks
+  - jekyll-jolt
