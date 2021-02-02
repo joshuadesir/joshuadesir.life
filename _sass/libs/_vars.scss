@@ -1,9 +1,9 @@
 // Misc.
 	$misc: (
 		z-index-base:		10000,
-		main-side:			right,
+		main-side:			left,
 		main-align:			right,
-		thumbnails-per-row:	2
+		thumbnails-per-row:	3
 	);
 
 // Duration.
@@ -27,8 +27,8 @@
 
 // Font.
 	$font: (
-		family:				('Roboto', Helvetica, sans-serif),
-		family-fixed:		('Courier New', monospace),
+		family:				('Amatic', Helvetica, sans-serif),
+		family-fixed:		('Amatic', monospace),
 		weight:				400,
 		weight-bold:		700
 	);
