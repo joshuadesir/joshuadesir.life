@@ -1,8 +1,11 @@
 <section id="thumbnails">
+
+    {% for project in site.data.portfolio %}
     <article>
-        <a class="thumbnail" href="images/fulls/01.jpg" data-position="left center"><img src="images/thumbs/01.jpg" alt="" /></a>
-        <h1>Hello World</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <a class="thumbnail" href="{{ project.image.full }}" data-position="left center">
+            <img src="{{ project.image.thumb }}" alt="{{ project.image.alt }}" /></a>
+        <h1>{{ project.name }}</h1>
+        <p>{{ project.description }}</p>
     </article>
-    
+    {% endfor %}
 </section>

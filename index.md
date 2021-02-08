@@ -1,5 +1,6 @@
 ---
 layout: Base
-
-header: 
 ---
+
+
+   {% include Spotlights.html %}

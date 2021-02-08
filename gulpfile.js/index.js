@@ -5,7 +5,7 @@ const siteRoot = "_site";
 
 const { parallel } = require("gulp");
 
-async function Jekyll(cb) {
+async function Jekyll(cb, port) {
   const jekyll = child.spawn("bundle", [
     "exec",
     "jekyll",

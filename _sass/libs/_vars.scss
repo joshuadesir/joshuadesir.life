@@ -8,11 +8,11 @@
 
 // Duration.
 	$duration: (
-		transition:			0.25s,
+		transition:			0.15s,
 		layout:				0.75s,
 		layout-alt:			0.5s,
 		slide:				0.5s,
-		spinner:			1s
+		spinner:			5s
 	);
 
 // Size.
@@ -27,18 +27,18 @@
 
 // Font.
 	$font: (
-		family:				('Amatic', Helvetica, sans-serif),
-		family-fixed:		('Amatic', monospace),
-		weight:				400,
+		family:				('Annie Use Your Telescope', cursive),
+		family-fixed:		('Annie Use Your Telescope', cursive),
+		weight:				500,
 		weight-bold:		700
 	);
 
 // Palette.
 	$palette: (
 		page-bg:			#101010,
-		bg:					#fff,
-		fg:					#aaa,
-		fg-bold:			#555,
+		bg:					#C41F02,
+		fg:					rgb(255, 255, 255),
+		fg-bold:			rgb(255, 245, 245),
 		fg-light:			#ccc,
 		border:				#ccc,
 		accent:				#00D3B7
