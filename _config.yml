@@ -11,3 +11,9 @@ github_username:  jekyll
 
 plugins:
   - jekyll-feed
+  - jekyll-admin
+  - jekyll_version_plugin
+  - jekyll-contentblocks 
+  - liquid-md5
+  - jekyll-mentions
+  - jekyll-default-layout

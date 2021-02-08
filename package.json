@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/joshuadesir/joshuadesir.life/issues"
   },
-  "homepage": "https://github.com/joshuadesir/joshuadesir.life#readme"
+  "homepage": "https://github.com/joshuadesir/joshuadesir.life#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2"
+  }
 }

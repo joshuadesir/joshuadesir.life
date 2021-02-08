@@ -4,6 +4,12 @@ gem "jekyll", "~> 4.2.0"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-admin"
+  gem "jekyll_version_plugin"
+  gem "jekyll-contentblocks"
+  gem "liquid-md5"
+  gem "jekyll-mentions"
+  gem "jekyll-default-layout"
 end
 
 
