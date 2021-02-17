@@ -1,4 +1,0 @@
----
-layout: Base 
-permalink: /articles
---- 
