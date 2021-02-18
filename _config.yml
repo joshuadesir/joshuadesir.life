@@ -10,7 +10,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 sass:
  sass_dir: _sass
 
-
+collections:
+ portfolio: 
+  output: true
+  permalink: /:collection/:title/
+  
 twitter_username: jekyllrb
 github_username:  jekyll
 
