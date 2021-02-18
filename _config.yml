@@ -16,3 +16,5 @@ github_username:  jekyll
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - liquid-md5
