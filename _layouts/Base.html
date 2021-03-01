@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 
 <html>
-  {% include partials/head.html %}
+  {% assign Head = "partials/head/index.html" %}
+  {% include {{ Head }} %}
 
   <body class="is-preload">
 
-    {% include partials/header.html %}
+    {% assign Header = "partials/header/index.html" %}
+    {% include {{ Header }} %}
+  
 
     <div id="main">
 
@@ -13,8 +16,10 @@
 
 	</div>
 
-    {% include partials/footer.html %} 
+    {% assign Footer = "partials/footer/index.html" %}
+    {% include {{ Footer }} %}
 	
-	{% include partials/postscripts.html %}
+	{% assign PostScripts = "partials/postscripts/index.html" %}
+  {% include {{ PostScripts }} %}
   </body>
 </html>

@@ -1,4 +1,4 @@
 ---
-layout: Base
+layout: Page
 permalink: /
 ---
