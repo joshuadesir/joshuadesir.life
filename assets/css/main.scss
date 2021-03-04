@@ -1,0 +1,8 @@
+---
+theme: vaund 
+--- 
+
+
+@import "libs/strata/index.scss";
+@import "themes/{{ page.theme }}/config.scss";
+@import url("fontawesome-all.min.css");
