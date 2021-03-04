@@ -2,7 +2,6 @@
 theme: vaund 
 --- 
 
-
-@import "libs/strata/index.scss";
 @import "themes/{{ page.theme }}/config.scss";
+@import "libs/strata/index.scss";
 @import url("fontawesome-all.min.css");

@@ -1,0 +1,19 @@
+{
+  "name": "joshuadesir.life",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuadesir/joshuadesir.life.git"
+  },
+  "author": "Jeffrey Desir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshuadesir/joshuadesir.life/issues"
+  },
+  "homepage": "https://github.com/joshuadesir/joshuadesir.life#readme"
+}
